@@ -12,4 +12,7 @@ class Film {
     var title: String? = null
     var director: String? = null
     var duration: Long? = null
+    var release_date: Long? = null
+    var gender: Long? = null
+    var investment: Double? = null
 }
