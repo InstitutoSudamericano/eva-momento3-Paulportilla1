@@ -53,7 +53,7 @@ class CharacterService {
     }
     fun delete (id: Long?):Boolean?{
         try{
-            val response = characterRepository.findById(id)
+            val response: Character = characterRepository.findById(id)
                 ?: throw Exception("ID no existe")
             characterRepository.deleteById(id!!)
             return true

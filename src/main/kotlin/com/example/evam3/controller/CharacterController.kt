@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 import org.springframework.web.server.ResponseStatusException
 
- // Asegúrate de importar tu clase Character
+
 
 @RestController
 @RequestMapping("/character")
